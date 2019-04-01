@@ -42,6 +42,8 @@ function App() {
           <Redirect from="/old-route" to="/about" />
           <Route component={NoMatch} />
         </Switch>
+        <a href="/">Index with reload</a>
+        <a href="/about">About with reload</a>
       </Router>
     </div>
   );
